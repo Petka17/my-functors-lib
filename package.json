@@ -1,0 +1,14 @@
+{
+  "name": "js-basics",
+  "version": "1.0.0",
+  "description": "Javascript in details",
+  "main": "code.js",
+  "scripts": {
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
