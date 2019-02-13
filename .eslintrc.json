@@ -1,0 +1,74 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "ecmaFeatures": {
+            "impliedStrict": true,
+            "experimentalObjectRestSpread": true,
+            "jsx": true
+        },
+        "sourceType": "module"
+    },
+    "env": {
+        "browser": true,
+        "node": true,
+        "mocha": true,
+        "jasmine": true,
+        "es6": true
+    },
+    "extends": "eslint:all",
+
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "object-curly-spacing": [
+            "error",
+            "always"
+        ],
+        "one-var": [
+            "error",
+            "never"
+        ],
+        "padded-blocks": ["error", { "classes": "always" }],
+        "quote-props": ["error", "as-needed"],
+        "arrow-parens": ["error", "as-needed"],
+        "dot-location": ["error", "property"],
+        "no-ternary": "off",
+        "no-confusing-arrow": "off",
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+
+        "no-console": 0,
+        "no-underscore-dangle": 1,
+        "indent": [
+            "error",
+            4,
+            { "SwitchCase": 1 }
+        ],
+        "comma-dangle": 0,
+        "no-multi-spaces": [
+            "error",
+            {
+                "exceptions": {
+                    "VariableDeclarator": true,
+                    "ImportDeclaration": true
+                }
+            }
+        ],
+        "curly": ["error", "multi-or-nest"],
+        "no-trailing-spaces": ["warn", { "skipBlankLines": true }],
+        "radix": ["error", "as-needed"],
+        "strict": 0,
+        "func-names": 0
+    }
+}
